@@ -14,4 +14,4 @@ class test extends baseClass{
 	use traitSample;
 }
 $obj1 = new test();
-$obj1->getReturnType();//TraitSample:BaseClass
+echo $obj1->getReturnType();//TraitSample:BaseClass
