@@ -54,7 +54,7 @@ class C extends B{
 $obj=new C();
 //echo $obj->b();
 
-//Multiple Inheritance Not possible in PHP so Use Traits and Interface
+//Multiple Inheritance Not possible in PHP so Use Traits Or Interface
 /*class D{
 	public function d(){
 		return "Class D and Member Function d";
@@ -74,4 +74,100 @@ class F extends D,E{
 $Objectm=new F();
 echo $Objectm->f();*/
 
+//Example of all types of Inheritance In C++
+#Example of single level inheritance
+class Base
+{
 
+};
+
+class Derv: public Base
+{
+
+};
+#Multi level inheritance:
+/*
+	In multi level inheritance, there will be a chain of inheritance with a class derived from only one parent and will have only one child class.
+*/
+class A
+{
+
+};
+
+class B: public A
+{
+
+};
+
+class C: public B
+{
+
+};
+
+
+#Multiple inheritance
+
+#Defin: One class being derived from multiple parent classes.
+class A
+{
+
+};
+
+class B
+{
+
+};
+
+class C: public B, public A
+{
+
+};
+
+#Hierarchical inheritance
+#Many classes deriving from one class.
+class A
+{
+
+};
+
+class B: public A
+{
+
+};
+
+class C: public A
+{
+
+};
+#Hybrid inheritance
+#It is a mixture of 2 or more of above types of inheritance. There is no pattern of deriving from classes.
+class A
+{
+
+};
+
+class B
+{
+
+};
+
+class C: public A, public B
+{
+
+};
+
+class D: public A
+{
+
+};
+ 
+
+class X: public D, public C
+{
+
+};
+
+#PHP Supports 3 types of inheritance.
+#1.Single Inheritance,
+#1.Multilevel Inheritance,
+#1.hierarchical Inheritance,

@@ -1,4 +1,8 @@
 <?php
+# Class is a blue print of objects
+# A class describes all the attributes of objects, as well as the methods that implement the behavior of member objects
+# A class acts as a blue-print that defines the properties, states, and behaviors that are common to a number of objects. 
+# An object is an instance of the class.
 class human{
 public $gender;//member variable
 const valsn=2;
