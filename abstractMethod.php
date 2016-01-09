@@ -23,7 +23,7 @@ Important:-Note
 
 In above code you can see that you have declare 3 function in abstract class.
  But private declaration of the abstract method will always throw error.
- Because private method is availabe only in the same class context. 
+ Because private method is available only in the same class context. 
  But in case of xyz. This is protected. 
  Now in child class we have defined it as public because public is less restricted than protected. 
  We have defined it public because no any visibility is less restricted than public.
