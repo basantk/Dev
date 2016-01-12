@@ -78,9 +78,9 @@
 	38. How to set variable for view in cakephp.
 	39. What is post and pre increment.
 	40. $i=6;
-		echo $i++ + $++;
+		echo $i++ + $i++;
 		echo $i;
-		echo $i-- - $--;
+		echo $i-- - $i--;
 		
 	
 	
