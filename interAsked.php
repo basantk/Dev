@@ -73,6 +73,7 @@
 	32. What is Constructor ?
 	33. What is Inheritance?How many?dose PHP support multiple inheritance ?
 	34. Association in CakePHP ?
+		
 	35. What is HMABT Has many and belongs to association cakePHP ?
 	36. What is bind and live methods in jQuery and differences.
 		Ans: 
