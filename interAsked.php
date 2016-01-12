@@ -73,7 +73,16 @@
 	33. What is Inheritance?How many?dose PHP support multiple inheritance ?
 	34. Association in Cakephp ?
 	35. What is HMABT Has many and belongs to association cakephp.
-	36. 
+	36. What is bind and live methods in Jquery and differences.
+	37. How to call different file in different methods in cakephp.
+	38. How to set variable for view in cakephp.
+	39. What is post and pre increment.
+	40. $i=6;
+		echo $i++ + $++;
+		echo $i;
+		echo $i-- - $--;
+		
+	
 	
 */
 ?>
