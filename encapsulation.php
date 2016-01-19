@@ -29,7 +29,8 @@ Traits in php.
 What is Traits in PHP?
 Traits are a mechanism for code reuse in single inheritance.
 A Trait is similar to a class, but only intended to group functionality in a fine-grained and consistent way. 
-It is not possible to instantiate a Trait but addition to traditional inheritance. It is intended to reduce some limitations of single inheritance to reuse sets of methods freely in several independent classes living in different class hierarchies.
+It is not possible to instantiate a Trait but addition to traditional inheritance. 
+It is intended to reduce some limitations of single inheritance to reuse sets of methods freely in several independent classes living in different class hierarchies.
 Multiple Traits can be inserted into a class by listing them in the use statement, separated by commas(,).
 If two Traits insert a method with the same name, a fatal error is produced.
 
@@ -69,8 +70,8 @@ class Encap{
 	}
 }
 $obj=new Encap();
-//echo $obj->uerEmail('basant@phroecs.com');
-//echo $obj->phone('9911052957122');
+echo $obj->uerEmail('basant@phroecs.com');
+echo $obj->phone('9911052957122');
 
 /*Testing str_replace*/
 //$vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
@@ -86,5 +87,5 @@ $obj=new Encap();
 //echo $pos      = strripos($haystack, $needle);//last and case insensitive
  //$array = array('1', '2', '3', '4', '5', '6', '7', '8', '9', '10');    
     //echo join('a', array('b','c')); 	
-	parse_str("name=Peter||age=43",$myArray);
-print_r($myArray);
+	//parse_str("name=Peter||age=43",$myArray);
+//print_r($myArray);

@@ -21,7 +21,7 @@ echo $object->xyz('Basant','basantk21@gmail.com');
 /*
 Important:-Note
 
-In above code you can see that you have declare 3 function in abstract class.
+ In above code you can see that you have declare f3 function in abstract class.
  But private declaration of the abstract method will always throw error.
  Because private method is available only in the same class context. 
  But in case of xyz. This is protected. 

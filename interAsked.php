@@ -118,11 +118,18 @@
 			});
 			
 	43. What is array_pop, array_push and array_shift, array_unshift ?
-		array_pop()-:  pop(remove) the elements from last position of the array.(remove one)
-		array_push()-: push(add) one or more element at the end of the array. Note:Add one or More 
-		array_shift(): array_shift shift(remove) the element off the beginning of the array. Note: remove only one elements
-		array_unshift(): array_unshift(add) the element at the beginning of the array. Note: Add one or more elements
-		
+		Ans:	
+			array_pop()-:  pop(remove) the elements from last position of the array.(remove one)
+			array_push()-: push(add) one or more element at the end of the array. Note:Add one or More 
+			array_shift(): array_shift shift(remove) the element off the beginning of the array. Note: remove only one elements
+			array_unshift(): array_unshift(add) the element at the beginning of the array. Note: Add one or more elements
+	44. What is Indexing in Mysql Database	 ?
+		Ans: 
+			Indexes are use to find rows with specific column value quickly.
+			MySQL must begin with the first row and then read through the entire table to find the relevant rows.
+			If the table has an index for the columns in question, MySQL can quickly determine the position to seek to in the middle of the data file without having to look at all the data.
+			This is much faster than reading every row sequentially.
+
 	
 */
 ?>

@@ -16,5 +16,5 @@ public function get_gender(){//member function
 	return $this->gender;
 }
 }
-$object = new human('Male/Femal');
+$object = new human('Male/Female');
 //echo $object->get_gender();
