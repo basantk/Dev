@@ -1,3 +1,19 @@
+//new example
+class shape{
+     public funciton __call($method,$args){
+	if($method=='area') {
+            switch(count($args)){
+			case 2:
+			return $args[0]+$args[1];
+			case 3
+			return $args[0]+$args[1]+$args[2];
+		}
+        }
+     }
+}
+$circle = new Shape();
+echo $circle->area(2,3);
+
 <?php 
 class overload{
 	public $name;
@@ -28,3 +44,5 @@ class overload{
 $object=new overload('Sum');
 echo $object->sum2(1,2,3);
 //echo $object->sum(1,2,3)
+
+
