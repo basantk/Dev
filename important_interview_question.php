@@ -22,3 +22,4 @@
     21. let and var diff in js
     22. INput out put.
     23. OOPS Concept
+    24. how use .htaccess file....what are the uses.
