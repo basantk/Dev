@@ -23,3 +23,8 @@
     22. INput out put.
     23. OOPS Concept
     24. how use .htaccess file....what are the uses.
+    25. HTTPS/HTTP DIff
+    26. IIS
+    27. State less means
+    28. Ajax State...
+    29. Soup and Rest API
