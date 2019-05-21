@@ -28,3 +28,18 @@
     27. State less means
     28. Ajax State...
     29. Soup and Rest API
+    
+    
+    To create a REST API, you need to follow six architectural constraints:
+
+Uniform interface – Requests from different clients should look the same, for example, the same resource shouldn’t have more than one URI.
+
+Client-server separation – The client and the server should act independently. They should interact with each other only through requests and responses.
+
+Statelessness – There shouldn’t be any server-side sessions. Each request should contain all the information the server needs to know.
+
+Cacheable resources – Server responses should contain information about whether the data they send is cacheable or not. Cacheable resources should arrive with a version number so that the client can avoid requesting the same data more than once.
+
+Layered system – There might be several layers of servers between the client and the server that returns the response. This shouldn’t affect either the request or the response.
+
+Code on demand [optional] – When it’s necessary, the response can contain executable code (e.g., JavaScript within an HTML response) that the client can execute.
